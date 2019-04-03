@@ -1,0 +1,249 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: "overall";
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+canvas {
+	position: absolute;
+	left: -10%;
+	z-index: 10;
+}
+
+::-webkit-scrollbar {
+	height: 0;
+	width: 0;
+	background: transparent;
+}
+
+@font-face {
+	font-family: "overall";
+	src: url(fonts/Berthold-Akzidenz-Grotesk-Regular.otf);
+}
+
+/*SIDE BAR*/
+#side-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 15%;
+	background-color: #fff;
+	z-index: 20;
+}
+
+#menu-container {
+	margin-left: 10%;
+}
+
+#menu-container h1 {
+	font-size: 90%;
+}
+
+#menu-container ul {
+	margin-left: -20%;
+}
+
+#menu-container li {
+	list-style: none;
+	margin-bottom: 5%;
+	opacity: .8;
+	cursor: pointer;
+	font-size: 80%;
+}
+
+#line1 {
+	position: absolute;
+	width: 0;
+	height: .5%;
+	background-color: #000;
+}
+
+#line2 {
+	position: absolute;
+	width: 0;
+	height: .4%;
+	background-color: #000;
+}
+
+#line3 {
+	position: absolute;
+	width: 0;
+	height: .5%;
+	background-color: #000;
+}
+
+#line4 {
+	position: absolute;
+	width: 0;
+	height: .5%;
+	background-color: #000;
+}
+
+#side-bar-title {
+	margin-left: 20%;
+	margin-top: 260%;
+	cursor: pointer;
+}
+
+#gif-container img {
+	top: 50%;
+	position: absolute;
+	width: 90%;
+	display: none;
+}
+
+/*MAIN CONTAINER*/
+#title {
+	position: fixed;
+	top: 30%;
+	left: 41%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 600%;
+	z-index: 5;
+	font-style: italic;
+}
+
+#main-container {
+	position: fixed;
+	top: 0;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+}
+
+#banner1 {
+	position: fixed;
+	top: 0%;
+	left: .5%;
+	height: 100%;
+	width: 66%;
+	overflow-y: scroll;
+}
+
+#banner1 img {
+	display: block;
+	width: 100%;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	cursor: pointer;
+}
+
+#banner2 {
+	position: fixed;
+	left: 50%;
+	height: 100%;
+	width: 66%;
+	overflow-y: scroll;	
+}
+
+#banner2 img {
+	width: 100%;
+	display: block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	cursor: pointer;
+}
+
+/*ABOUT CONTACT CONTAINER*/
+#about-contact-container {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	display: none;
+}
+
+#AC-image-container {
+	margin-top: 30%;
+	margin-left: 20%;
+	width: 50%;
+	height: auto;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#AC-image-container img {
+	position: absolute;
+	width: 100%;
+}
+
+#paragraph-container {
+	position: absolute;
+	top: 6%;
+	left: 50%;
+	width: 30%;
+	text-align: justify;
+}
+
+#paragraph-container p {
+	line-height: 150%;
+	margin-bottom: 50%;
+}
+
+#primary-p {
+	font-size: 150%;
+	opacity: .7;
+}
+
+#secondary-p {
+	font-size: 120%;
+	opacity: 1;
+}
+
+#social-media-container {
+	position: absolute;
+	top: 197.5%;
+	left: 5%;
+	height: auto;
+	width: auto;
+	padding: 1%;
+}
+
+#social-media-container img {
+	cursor: pointer;
+}
+
+#social-media-list {
+	list-style: none;
+}
+
+#ig-logo {
+	width: 15%;
+}
+
+#rodney-logo {
+	width: 25%;
+	margin-left: -5%;
+}
+
+/*GALLERY CONTAINER*/
+#gallery-container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 15%;
+	z-index: 10;
+	display: none;
+}
